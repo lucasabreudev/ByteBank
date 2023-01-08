@@ -35,8 +35,6 @@ namespace bytebank.Account
             TotalAccounts++;
         }
 
-
-
         private void VerifyValue(double value)
         {
             if (value <= 0)
@@ -62,7 +60,6 @@ namespace bytebank.Account
             }
             return false;
         }
-
 
         public bool MoneyTransfer(double value, CurrentAccount destination)
         {
